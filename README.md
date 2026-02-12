@@ -21,7 +21,7 @@ A responsive, multi-page static website built as a **Frontend Lab Assessment** p
 - **HTML5** — Semantic markup & accessibility
 - **CSS3** — Custom styling with hover effects, transitions, and responsive design
 - **Bootstrap 5** — Grid system, navbar, carousel, form components, and utility classes
-- **JavaScript (Vanilla)** — Form validation, DOM manipulation, and page navigation
+- **JavaScript** — Form validation, DOM manipulation, and page navigation
 
 ## 📁 Project Structure
 

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to MyWebsite - Explore our services, gallery, and more.">
+  <title>Home - MyWebsite</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">MyWebsite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel Section -->
+  <section class="container mt-4">
+    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+          <img src="https://picsum.photos/id/1015/1200/500" class="d-block w-100" alt="Nature Landscape">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to MyWebsite</h5>
+            <p>Discover beautiful experiences with us.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/id/1061/1200/500" class="d-block w-100" alt="Office Workspace">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Professional Services</h5>
+            <p>We deliver quality work every time.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/id/180/1200/500" class="d-block w-100" alt="City Skyline">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Join Our Community</h5>
+            <p>Be a part of something great.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="container my-5">
+    <h2 class="section-title text-center">Our Gallery</h2>
+    <div class="row g-4">
+      <div class="col-md-4 col-sm-6">
+        <div class="card gallery-card">
+          <img src="https://picsum.photos/id/1011/400/300" class="card-img-top" alt="Mountain View">
+          <div class="card-body">
+            <h6 class="card-title">Mountain View</h6>
+            <p class="card-text text-muted">A serene mountain landscape.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card gallery-card">
+          <img src="https://picsum.photos/id/1018/400/300" class="card-img-top" alt="Misty Forest">
+          <div class="card-body">
+            <h6 class="card-title">Misty Forest</h6>
+            <p class="card-text text-muted">Explore the beauty of nature.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card gallery-card">
+          <img src="https://picsum.photos/id/1029/400/300" class="card-img-top" alt="Green Hills">
+          <div class="card-body">
+            <h6 class="card-title">Green Hills</h6>
+            <p class="card-text text-muted">Rolling green landscapes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card gallery-card">
+          <img src="https://picsum.photos/id/1035/400/300" class="card-img-top" alt="City Lights">
+          <div class="card-body">
+            <h6 class="card-title">City Lights</h6>
+            <p class="card-text text-muted">The glow of urban nightlife.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card gallery-card">
+          <img src="https://picsum.photos/id/1039/400/300" class="card-img-top" alt="Ocean Waves">
+          <div class="card-body">
+            <h6 class="card-title">Ocean Waves</h6>
+            <p class="card-text text-muted">Feel the ocean breeze.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="card gallery-card">
+          <img src="https://picsum.photos/id/1047/400/300" class="card-img-top" alt="Sunset Road">
+          <div class="card-body">
+            <h6 class="card-title">Sunset Road</h6>
+            <p class="card-text text-muted">A journey into the sunset.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Explore More Button -->
+    <div class="text-center mt-4">
+      <button class="btn btn-primary px-4 py-2" onclick="goToPage('about.html')">Explore More</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-0">&copy; <span id="year"></span> MyWebsite. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
